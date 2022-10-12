@@ -10,7 +10,7 @@ type Item struct {
 	ItemCode    int    `gorm:"not null" json:"item_code"`
 	Description string `gorm:"not null" json:"description"`
 	Quantity    string `gorm:"not null" json:"quantity"`
-	// OrderId     uint
+	OrderId     uint
 
-	// Order *Order
+	Order *Order
 }
